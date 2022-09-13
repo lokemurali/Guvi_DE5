@@ -17,7 +17,7 @@ def Main():
             print("Invalid Input, Try again")
     
     def user_registration():
-    db = open(r"C:\Users\lokes\Documents\Guvi-DE5\register.txt", "r")
+    db = open(r"register.txt", "r")
     Ex_Username = []
     for i in db:
         a,b = i.split(",")
@@ -85,7 +85,7 @@ def validate_pass(pass1,pass2):
     UserName = input("Enter the email: ")
     Password = input("Enter the Password: ")
     
-    db = open(r"C:\Users\lokes\Documents\Guvi-DE5\register.txt", "r")
+    db = open(r"register.txt", "r")
     user = []
     passs = []
     regis_info = {}
